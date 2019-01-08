@@ -1,4 +1,9 @@
 body {
     background-image: url("../img/Summer_Picnic_Burger.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
+
+.card {
+    margin-bottom: 10px;
+}
+
