@@ -1,6 +1,6 @@
 var orm = require("../config/orm.js");
 
-//UPDATE FOR THIS SPECIFIC APPLICATION
+
 var burger = {
   selectAll: function(cb) {
     orm.selectAll("burgers", function(res) {

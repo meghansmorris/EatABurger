@@ -1,7 +1,7 @@
 
-INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Veggie Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Portabello Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Basic Burger', false);
+INSERT INTO burgers (burger_name) VALUES ('Cheeseburger');
+INSERT INTO burgers (burger_name) VALUES ('Veggie Burger');
+INSERT INTO burgers (burger_name) VALUES ('Portabello Burger');
+INSERT INTO burgers (burger_name) VALUES ('Basic Burger');
 
 SELECT * FROM burgers;
