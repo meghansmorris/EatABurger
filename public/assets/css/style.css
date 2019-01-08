@@ -7,3 +7,14 @@ body {
     margin-bottom: 10px;
 }
 
+h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size-adjust: unset;
+    font-size: 70px;
+    color: #014351;
+}
+
+li {
+    color: #014351;
+}
+
