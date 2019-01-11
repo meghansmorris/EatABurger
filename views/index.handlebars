@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6">
             <div class="panel panel-default">
                 <ul class="list group mt-6">
                     {{#each burgers}}
@@ -16,11 +16,14 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="panel panel-default">
                 <ul class="list group mt-6">
                     {{#each burgers}}
-                        {{#if newdevour}}
+                        {{#if devoured}}
+                        <li class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+	                        {{burger_name}}
+                        </li>
                         {{/if}}
                     {{/each}}
                 </ul>
